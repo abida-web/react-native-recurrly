@@ -8,6 +8,7 @@ import { useRouter } from 'expo-router';
 const SafeAreaView = styled(RNSafeAreaView);
 
 const Settings = () => {
+  
   const { user } = useUser();
   const { signOut } = useClerk();
   const router = useRouter();

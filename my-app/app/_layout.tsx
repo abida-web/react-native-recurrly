@@ -4,7 +4,7 @@ import "./global.css";
 import { useEffect } from "react";
 import { ClerkProvider } from '@clerk/expo'
 import { tokenCache } from '@clerk/expo/token-cache'
-
+SplashScreen._internal_preventAutoHideAsync()
 const publishableKey = process.env.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY!
 
 if (!publishableKey) {
