@@ -37,12 +37,12 @@
   --spacing-24: 96px;
   --spacing-30: 120px;
 
-  --font-sans: sans-regular;
-  --font-sans-light: sans-light;
-  --font-sans-medium: sans-medium;
-  --font-sans-semibold: sans-semibold;
-  --font-sans-bold: sans-bold;
-  --font-sans-extrabold: sans-extrabold;
+  --font-sans: PlusJakartaSans_400Regular;
+  --font-sans-light: PlusJakartaSans_300Light;
+  --font-sans-medium: PlusJakartaSans_500Medium;
+  --font-sans-semibold: PlusJakartaSans_600SemiBold;
+  --font-sans-bold: PlusJakartaSans_700Bold;
+  --font-sans-extrabold: PlusJakartaSans_800ExtraBold;
 }
 
 @layer components {
